@@ -1,0 +1,41 @@
+<footer class="nav-footer">
+  <section class="sitemap">
+    <a href="/react/" class="nav-home">
+    </a>
+    <div>
+      <h5><a href="/react/docs/">文档</a></h5>
+      <a href="/react/docs/hello-world.html">快速入门</a>
+      <a href="/react/docs/thinking-in-react.html">React编程思想</a>
+      <a href="/react/tutorial/tutorial.html">教程</a>
+      <a href="/react/docs/jsx-in-depth.html">高级文档</a>
+    </div>
+    <div>
+      <h5><a href="/react/community/support.html">社区</a></h5>
+      <a href="http://stackoverflow.com/questions/tagged/reactjs" target="_blank">Stack Overflow</a>
+      <a href="https://discuss.reactjs.org/" target="_blank">论坛</a>
+      <a href="https://discord.gg/0ZcbPKXt5bZjGY5n" target="_blank">Reactiflux Chat</a>
+      <a href="https://www.facebook.com/react" target="_blank">Facebook</a>
+      <a href="https://twitter.com/reactjs" target="_blank">Twitter</a>
+    </div>
+    <div>
+      <h5><a href="/react/community/support.html">资源</a></h5>
+      <a href="/react/community/conferences.html">会议</a>
+      <a href="/react/community/videos.html">视频</a>
+      <a href="https://github.com/facebook/react/wiki/Examples" target="_blank">案例</a>
+      <a href="https://github.com/facebook/react/wiki/Complementary-Tools" target="_blank">Complementary Tools</a>
+    </div>
+    <div>
+      <h5>More</h5>
+      <a href="/react/blog/">新闻</a>
+      <a href="https://github.com/facebook/react" target="_blank">GitHub</a>
+      <a href="http://facebook.github.io/react-native/" target="_blank">React Native</a>
+      <a href="/react/acknowledgements.html">Acknowledgements</a>
+    </div>
+  </section>
+  <a href="https://code.facebook.com/projects/" target="_blank" class="fbOpenSource">
+    <img src="/react/img/oss_logo.png" alt="Facebook Open Source" width="170" height="45"/>
+  </a>
+  <section class="copyright">
+    Copyright © {{ site.time | date: '%Y' }} Facebook Inc.
+  </section>
+</footer>
