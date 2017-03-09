@@ -1,86 +1,72 @@
-- title: 快速起步
+- title: Overview
   items:
-    - id: installation
-      title: 安装
-    - id: hello-world
-      title: Hello World
-    - id: introducing-jsx
-      title: JSX介绍
-    - id: rendering-elements
-      title: 渲染元素
-    - id: components-and-props
-      title: Components 和 Props
-    - id: state-and-lifecycle
-      title: 状态和生命周期
-    - id: handling-events
-      title: 处理事件
-    - id: conditional-rendering
-      title: 条件渲染
-    - id: lists-and-keys
-      title: 列表和关键字
-    - id: forms
-      title: 表单
-    - id: lifting-state-up
-      title: Lifting State Up
-    - id: composition-vs-inheritance
-      title: Composition vs Inheritance
-    - id: thinking-in-react
-      title: React编程思想
-- title: 高级文档
+    - id: null
+      title: Getting started
+      subitems:
+        - id: setup
+          title: How to setup your teams, sales process and objectives?
+    - id: null
+      title: Process Overview
+      subitems:
+        - id: generate_leads
+          title: Generating leads with Odoo CRM
+    - id: null
+      title: Main Concepts
+      subitems:
+        - id: introduction
+          title: Introduction to Odoo CRM
+        - id: terminologies
+          title: Odoo CRM Terminologies
+- title: Sales Team
   items:
-    - id: jsx-in-depth
-      title: JSX深入
-    - id: typechecking-with-proptypes
-      title: Typechecking With PropTypes
-    - id: refs-and-the-dom
-      title: Refs and the DOM
-    - id: uncontrolled-components
-      title: Uncontrolled Components
-    - id: optimizing-performance
-      title: 性能优化
-    - id: react-without-es6
-      title: React Without ES6
-    - id: react-without-jsx
-      title: React Without JSX
-    - id: reconciliation
-      title: Reconciliation
-    - id: context
-      title: 上下文
-    - id: web-components
-      title: Web Components
-    - id: higher-order-components
-      title: Higher-Order Components
-- title: 参考
+    - id: null
+      title: Sales Team
+      subitems:
+        - id: create_team
+          title: How to create a new team?
+        - id: organize_pipeline
+          title: Set up and organize your sales pipeline
+    - id: null
+      title: Manage salespeople
+        - id: create_salesperson
+          title: How to create a new salesperson?
+        - id: reward
+          title: How to motivate and reward my salespeople?
+- title: Leads
   items:
-    - id: react-api
-      title: React
+    - id: null
+      title: Generate leads
+      subitems:
+        - id: manual
+          title: How to create a contact into Odoo CRM?
+        - id: import
+          title: How to import contacts to the CRM?
+        - id: emails
+          title: How to generate leads from incoming emails?
+        - id: website
+          title: How to generate leads from my website?
+    - id: null
+      title: Manage leads
+      subitems:
+        - id: automatic_assignation
+          title: Automate lead assignation to specific sales teams or salespeople
+        - id: lead_scoring
+          title: How to do efficient Lead Scoring?
+    - id: null
+      title: Odoo VOIP
+      subitems:
+        - id: setup
+          title: Installation and Setup
+- title: Reporting
+  items:
+    - id: analysis
+      title: How to analyze the sales performance of your team and get customize reports
+    - id: review
+      title: How to review my personal sales activities (new sales dashboard)
+- title: Calendar
+  items:
+    - id: google_calendar_credentials
+      title: How to synchronize your calendar with Google Calendar
       subitems:
         - id: react-component
           title: React.Component
-    - id: react-dom
-      title: ReactDOM
-    - id: react-dom-server
-      title: ReactDOMServer
-    - id: dom-elements
-      title: DOM 元素
-    - id: events
-      title: SyntheticEvent
-    - id: addons
-      title: Add-Ons
-      subitems:
-        - id: perf
-          title: Performance Tools
-        - id: test-utils
-          title: Test Utilities
-        - id: animation
-          title: 动画
-        - id: create-fragment
-          title: Keyed Fragments
-        - id: update
-          title: Immutability Helpers
-        - id: pure-render-mixin
-          title: PureRenderMixin
-        - id: shallow-compare
-          title: Shallow Compare
-        - id: two-way-binding-helpers
-          title: Two-way Binding Helpers
