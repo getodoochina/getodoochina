@@ -28,6 +28,7 @@
           title: Set up and organize your sales pipeline
     - id: null
       title: Manage salespeople
+      subitems:
         - id: create_salesperson
           title: How to create a new salesperson?
         - id: reward
